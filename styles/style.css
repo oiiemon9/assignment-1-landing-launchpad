@@ -200,3 +200,29 @@ body {
 .Ready-img img {
   border-radius: 48px;
 }
+/* lets-title */
+.ltes-touch-form {
+  width: 498px;
+}
+.lets-section {
+  display: flex;
+  align-items: center;
+}
+.lets-title h2 {
+  font-size: 97px;
+  font-weight: 700;
+}
+.ltes-touch-form form {
+  display: flex;
+  flex-direction: column;
+}
+.ltes-touch-form form label {
+  font-size: 18px;
+}
+.touch-input {
+  padding: 16px 32px;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
