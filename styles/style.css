@@ -5,7 +5,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+body {
+  background-color: #f5f8ff;
+}
 .inter-font {
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
@@ -14,6 +16,24 @@
 .container-w {
   max-width: 1140px;
   margin: 0 auto;
+}
+.primary-mt {
+  margin-top: 116px;
+}
+.primary-button {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 36px;
+  cursor: pointer;
+}
+.primary-button:hover {
+  background-color: white;
+  border: 1px solid gainsboro;
+  color: #4e47ff;
 }
 .header {
   height: 698px;
@@ -56,4 +76,24 @@
 }
 .hero-section button {
   margin-top: 37px;
+}
+/* main  */
+.seeit-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seeit-contant h3 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+}
+.seeit-contant p {
+  font-size: 24px;
+  color: #252432;
+  opacity: 50%;
+  padding: 23px 0;
+}
+.seeit-img img {
+  border-radius: 48px;
 }
