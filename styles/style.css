@@ -174,3 +174,29 @@ body {
 .users-name p {
   margin: 0;
 }
+/* Ready-info  */
+.ready-section {
+  background-color: white;
+  border-radius: 14px;
+  padding: 71px 150px;
+}
+.Ready-info {
+  text-align: center;
+}
+.Ready-info h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.Ready-info p {
+  color: #252432;
+  opacity: 50%;
+  margin: 20px 0;
+}
+.Ready-img {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.Ready-img img {
+  border-radius: 48px;
+}
