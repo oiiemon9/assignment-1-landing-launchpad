@@ -97,3 +97,30 @@ body {
 .seeit-img img {
   border-radius: 48px;
 }
+.joined-section {
+  background-color: #4d47ff1c;
+  border-radius: 24px;
+  padding: 50px 142px;
+}
+.joined-section h3 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+  text-align: center;
+}
+.joined-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.joined-data h1 {
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: 700;
+}
+.joined-data p {
+  text-align: center;
+  font-size: 20px;
+  color: #252432;
+  opacity: 50%;
+}
