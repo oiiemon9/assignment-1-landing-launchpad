@@ -226,3 +226,34 @@ body {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+/* footer */
+.footer {
+  height: 428px;
+  background-color: white;
+  border-top: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contant {
+  text-align: center;
+}
+.footer-contant h1 {
+  font-size: 100px;
+  font-weight: 800;
+  color: #4e47ff;
+}
+.footer-contant p {
+  color: #8987a1;
+  margin-top: 8px;
+}
+.footer-link {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #8987a1;
+}
